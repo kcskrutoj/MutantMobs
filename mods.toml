@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="mutantmobs"
+version="1.0.0"
+displayName="Mutant Mobs"
+authors="Example"
+description='''Adds three randomly generated zombie variants: Tank Mutant, Zombie Runner, and Mutant.'''
+
+[[dependencies.mutantmobs]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.39,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mutantmobs]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5,1.17)"
+ordering="NONE"
+side="BOTH"
